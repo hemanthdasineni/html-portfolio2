@@ -1,0 +1,20 @@
+h1{
+      color: gold;
+}
+.title
+{
+    background-color: black;
+    text-align: center;
+}
+h2{
+    color: aliceblue;
+    text-align: left;
+}
+*
+{
+    background-color:black;
+}
+.movienames
+{
+    color: aliceblue;
+}
