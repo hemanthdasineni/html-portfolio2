@@ -14,7 +14,55 @@ h2{
 {
     background-color:black;
 }
-.movienames
+.st,.ak,.dh
 {
     color: aliceblue;
+    margin: 0px;
+    overflow:hidden;
 }
+.st img,.ak img,.dh img{
+    float:right;
+    margin-right:15px;
+    width:150px;
+    height:auto;
+
+}
+.dh img{
+    height:100px;
+}
+.st h3,.ak h3, .dh h3{
+margin: 0px;
+font-size:xx-large;
+}
+.fullbox{
+    padding:400px;
+    padding-top:100px ;
+    padding-left:300px;
+}
+
+.st p, .ak p ,.dh p{
+    margin:0;
+}
+.st ,.ak {
+    margin-bottom: 30px;
+}
+@media (max-width:680px)
+{
+    .fullbox{
+        padding:0px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    .st img,.ak img,.dh img{
+        width:100%;
+        height:auto;
+        display:block;
+        margin-right:0px;
+    }
+    .st h3,.ak h3, .dh h3{
+        margin: 0px;
+        font-size:30px;
+        }
+
+}
+@media (min-width:681px) and (max-width:)
