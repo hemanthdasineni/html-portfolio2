@@ -46,6 +46,9 @@ font-size:xx-large;
 .st ,.ak {
     margin-bottom: 30px;
 }
+a{
+ color:aqua;
+}
 @media (max-width:680px)
 {
     .fullbox{
@@ -65,4 +68,6 @@ font-size:xx-large;
         }
 
 }
-@media (min-width:681px) and (max-width:)
+.index-image{
+    display: inline-block;
+}
